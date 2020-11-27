@@ -1,0 +1,75 @@
+         Roteiro de aula de revisão geral
+    MVVM + Recycleview + Coroutines +  Retrofit
+
+ Revisão MVVM
+    - Conceito.
+    - Criação de Class ViewModel.
+    - Instância sem parâmetros.
+    - Instanciação com parâmetros.
+    - LiveData Observable.
+        * Atualização MutableLiveData.
+        * Variáveis observáveis.
+
+ Revisão Recyclerview
+    - Definição Recyclerview na Activity
+    - Criação dos itens layouts
+    - Criação do Adapter
+    - OnBindViewHolder
+    - OncreateViewHolder
+    - ClassViewHolder
+    - Instanciação no Kotlin
+
+ Revisão Coroutines
+    - Conceito
+    - Aplicabilidade para requisições a APIs
+
+ Revisão Retrofit
+    - Conceito
+    - Criação do service singleton ok
+    - Deserialização usando Gson ok
+    - Acesso ao endpoint sem passagem de parâmetros
+    - Acesso ao endpoint com passagem de parâmetros
+    - Paginação
+
+ Auxílio aula
+    val urlApiMarvel = "https://gateway.marvel.com/v1/public/"
+    val urlApiPromo = "https://promoios.com.br/api/"
+    var urlRickMorty = "https://rickandmortyapi.com/api/"
+    var urlSortUser ="https://randomuser.me/api"
+
+ Complementos
+    //Dependência RecyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    //Dependência Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    //Dependência Convert Gson
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+    //Dependência Fragment ktx
+    implementation "androidx.fragment:fragment-ktx:1.2.5"
+
+    //Dependência Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+
+    //Dependência Gson
+    implementation 'com.google.code.gson:gson:2.8.6'
+
+ Funções úteis
+    //Criptografia MD5 kotlin
+    fun md5(input:String): String {
+       val md = MessageDigest.getInstance("MD5")
+       return BigInteger(1, md.digest(input.toByteArray())).toString(16).padStart(32, '0')
+    }
+
+ Extra
+
+    Documentação retrofit
+    https://square.github.io/retrofit/
+
+    Tabela de referência códigos http ( com gatinhos fofinhos :))
+    https://http.cat/
+
+ Repositório
+
