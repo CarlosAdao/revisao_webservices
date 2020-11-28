@@ -3,32 +3,32 @@
 
  Revisão MVVM
     - Conceito.
-    - Criação de Class ViewModel.
-    - Instância sem parâmetros.
-    - Instanciação com parâmetros.
-    - LiveData Observable.
-        * Atualização MutableLiveData.
-        * Variáveis observáveis.
+    - Criação de Class ViewModel ok
+    - Instância sem parâmetros. ok
+    - Instanciação com parâmetros ok
+    - LiveData Observable.ok
+        * Atualização MutableLiveData. ok
+        * Variáveis observáveis. ok
 
  Revisão Recyclerview
-    - Definição Recyclerview na Activity
-    - Criação dos itens layouts
-    - Criação do Adapter
-    - OnBindViewHolder
-    - OncreateViewHolder
-    - ClassViewHolder
-    - Instanciação no Kotlin
+    - Definição Recyclerview na Activity ok
+    - Criação dos itens layouts ok
+    - Criação do Adapter ok
+    - OnBindViewHolder ok
+    - OncreateViewHolderok
+    - ClassViewHolder ok
+    - Instanciação no Kotlin ok
 
  Revisão Coroutines
-    - Conceito
-    - Aplicabilidade para requisições a APIs
+    - Conceito ok
+    - Aplicabilidade para requisições a APIs ok
 
  Revisão Retrofit
-    - Conceito
+    - Conceito ok
     - Criação do service singleton ok
     - Deserialização usando Gson ok
-    - Acesso ao endpoint sem passagem de parâmetros
-    - Acesso ao endpoint com passagem de parâmetros
+    - Acesso ao endpoint sem passagem de parâmetros ok
+    - Acesso ao endpoint com passagem de parâmetros ok
     - Paginação
 
  Auxílio aula
@@ -71,5 +71,19 @@
     Tabela de referência códigos http ( com gatinhos fofinhos :))
     https://http.cat/
 
- Repositório
+    Gerador md5
+    https://www.md5hashgenerator.com/
 
+    Documentação
+    https://developer.marvel.com/documentation/authorization
+
+
+    Pegar imagens
+    http://i.annihil.us/u/prod/marvel/i/mg/c/e0/535fecbbb9784.jpg
+
+    url com chave
+    https://gateway.marvel.com/v1/public/characters?ts=1&apikey=6eb7e8896ec5850c52515a8a23ee97f0&hash=40a3aa568bb269dfad85ae0c4a297181
+
+
+ Repositório
+    https://github.com/CarlosAdao/revisao_webservices

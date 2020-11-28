@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.application'
     id 'kotlin-android'
+    id 'kotlin-android-extensions'
 }
 
 android {
@@ -39,7 +40,22 @@ dependencies {
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.4'
-    testImplementation 'junit:junit:4.+'
-    androidTestImplementation 'androidx.test.ext:junit:1.1.2'
-    androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
+
+    //Dependência RecyclerView
+    implementation 'androidx.recyclerview:recyclerview:1.1.0'
+
+    //Dependência Retrofit
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+
+    //Dependência Convert Gson
+    implementation 'com.squareup.retrofit2:converter-gson:2.5.0'
+
+    //Dependência Fragment ktx
+    implementation "androidx.fragment:fragment-ktx:1.2.5"
+
+    //Dependência Coroutines
+    implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.3.9'
+
+    //Dependência Gson
+    implementation 'com.google.code.gson:gson:2.8.6'
 }
